@@ -16,5 +16,4 @@ jobs:
         run: python -m pip install --upgrade pip pytest
 
       - name: Test with unittest
-        working-directory: ./calculator
         run: python3 -m unittest test_calc.py
